@@ -1,0 +1,31 @@
+{
+  "name": "@zerobias-org/workflow",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ZeroBias workflow artifacts (activities, workflows, roles, fields)",
+  "main": "main.js",
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zerobias-org/workflow.git"
+  },
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zerobias-org/workflow/issues"
+  },
+  "homepage": "https://github.com/zerobias-org/workflow#readme",
+  "overrides": {
+    "tar": "^7.5.7",
+    "@rollup/plugin-commonjs": "^28.0.0",
+    "conventional-commits-filter": "3.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.3.1",
+    "@commitlint/config-conventional": "^20.3.1",
+    "tsx": "^4.21.0"
+  }
+}
