@@ -1,0 +1,8 @@
+id: 5840f2d4-be65-434e-913f-fcf875537747
+name: Sample Task
+description: Sample activity on the platform todo workflow
+type: task
+estimatedTime: PT1H
+workflow: todo
+responsible:
+  - projectLead

@@ -1,0 +1,28 @@
+{
+  "name": "@zerobias-org/workflow-{npmparts}",
+  "version": "1.0.0",
+  "description": "{description}",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/workflow.git",
+    "directory": "package/{path}/"
+  },
+  "scripts": {
+    "correct:deps": "tsx {up}scripts/correctDeps.ts"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "files": [
+    "activity/**",
+    "npm-shrinkwrap.json"
+  ],
+  "zerobias": {
+    "import-artifact": "workflow",
+    "dataloader-version": "1.0.0",
+    "package": "{pkgparts}.workflow",
+    "imports": []
+  }
+}

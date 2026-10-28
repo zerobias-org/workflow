@@ -1,0 +1,28 @@
+{
+  "name": "@zerobias-org/workflow-zerobias-zerobias-base",
+  "version": "1.0.0",
+  "description": "ZeroBias base workflow content",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/workflow.git",
+    "directory": "package/zerobias/zerobias/base/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../../../scripts/correctDeps.ts"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "files": [
+    "activity/**",
+    "npm-shrinkwrap.json"
+  ],
+  "zerobias": {
+    "import-artifact": "workflow",
+    "dataloader-version": "1.0.0",
+    "package": "zerobias.zerobias.base.workflow",
+    "imports": []
+  }
+}

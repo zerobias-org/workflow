@@ -1,0 +1,21 @@
+{
+  "name": "@zerobias-org/workflow-bundle",
+  "version": "0.0.0",
+  "description": "All installable workflow packages",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/workflow.git",
+    "directory": "bundle/"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "zerobias": {
+    "package": "bundle.all-workflows",
+    "import-artifact": "bundle",
+    "dataloader-version": "1.0.0"
+  },
+  "dependencies": {}
+}
